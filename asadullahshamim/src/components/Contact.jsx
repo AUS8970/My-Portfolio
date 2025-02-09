@@ -22,7 +22,7 @@ const Contact = () => {
 
   return (
     <div id='contact' className="max-w-md mx-auto m-10 p-6 rounded shadow">
-      <h2 className="text-4xl font-bold text-gray-800 pb-4 text-center"> Contact Us </h2>
+      <h2 className="text-4xl font-bold text-gray-800 pb-4 text-center"> Contact Me </h2>
       <p className="mb-4 text-center"> For any of your needs, please email <a target='_blank' href={"https://mail.google.com/mail/u/0/?fs=1&to=www.aus8970@gmail.com&tf=cm"}>   <b> www.aus8970@gmail.com </b> </a> or contact <a href="https://wa.me/message/7A34EHJ3KL7QB1" className=""> <b> +8801979727030 </b></a> </p>
       <form onSubmit={handleSubmit(handleSignup)} className="mb-2">
         <div className="mb-1 grid grid-cols-1 gap-5 max-w-lg">

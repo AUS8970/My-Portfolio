@@ -1,7 +1,6 @@
 import { Card, CardHeader, CardBody, CardFooter, Typography, Button } from '@material-tailwind/react';
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
-import { LuCircleArrowOutUpRight } from 'react-icons/lu';
 
 const Projects = () => {
 
