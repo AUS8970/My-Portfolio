@@ -68,6 +68,9 @@ const ProjectDetails = () => {
             <Typography className="mt-2 text-gray-600">
               <b> Development Challenges: </b> {project.developmentChallenges}
             </Typography>
+            <Typography className="mt-2 text-gray-600">
+              <b> Future Enhancements: </b> {project.futureEnhancements}
+            </Typography>
             <div className="mt-2 flex flex-wrap gap-4">
               <b className='text-gray-600'> Tech Stack: </b> {
                 project.techStack.map((tech, i) => {
