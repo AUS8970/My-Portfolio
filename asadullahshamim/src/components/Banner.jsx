@@ -27,7 +27,7 @@ const Banner = () => {
             </a>
           </div>
           <a href="https://drive.google.com/file/d/1tx5oGiqFOalmWjOKx183b3DoCfTXCySV/view?usp=sharing" target="_blank">
-            <button className="bg-[#0B093A] text-white py-2 px-3 mt-5 rounded-md font-semibold"> Resume </button>
+            <button className="bg-[#0B093A] text-white py-2 px-3 mt-5 rounded-md font-semibold"> View Resume </button>
           </a>
         </div>
         <div className="md:w-1/2 w-full">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="navbar bg-[#0B093A]">
+      <div className="navbar fixed z-10 bg-[#0B093A]">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
@@ -34,11 +34,8 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1"> {links} </ul>
         </div>
-        <div className="navbar-end">          
-          {/* <a href="https://drive.google.com/file/d/1tx5oGiqFOalmWjOKx183b3DoCfTXCySV/view?usp=sharing" target="_blank">
-            <button className=" bg-white text-[#0B093A] py-2 px-3 rounded-md font-semibold"> Resume </button>
-          </a> */}
-          <Link target="_blank" to={"https://drive.google.com/file/d/1tx5oGiqFOalmWjOKx183b3DoCfTXCySV/view?usp=sharing"} className=" bg-white text-[#0B093A] py-2 px-3 rounded-md font-semibold"> Resume </Link>
+        <div className="navbar-end">
+          <Link target="_blank" to={"https://drive.google.com/file/d/1tx5oGiqFOalmWjOKx183b3DoCfTXCySV/view?usp=sharing"} className=" bg-white text-[#0B093A] py-2 px-3 rounded-md font-semibold"> View Resume </Link>
         </div>
       </div>
     </div>

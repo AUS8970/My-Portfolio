@@ -47,7 +47,7 @@ const Projects = () => {
                   <Typography> {project.description} </Typography>
                 </CardBody>
                 <CardFooter className="p-2 w-full">
-                  <Button className='mt-2 bg-[#0B093A] text-base-content text-sm p-2 w-full'> 
+                  <Button className='mt-2 bg-[#0B093A] text-white text-sm p-2 w-full'> 
                     <a href={`/project/${project.id}`} className="flex gap-1 items-center justify-center">
                       Details 
                     </a>

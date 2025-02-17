@@ -1,6 +1,6 @@
 import React from 'react';
 import { LuCircleArrowOutUpRight } from 'react-icons/lu';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Card, CardHeader, CardBody, CardFooter, Typography, Button, Chip } from '@material-tailwind/react';
 import { FaGithub } from 'react-icons/fa';
 
@@ -80,16 +80,18 @@ const ProjectDetails = () => {
             </div>
           </CardBody>
           <div className="flex justify-center md:justify-start gap-4 mx-5">
-            <Button className='bg-[#0B093A] text-base-content text-sm px-10 py-2 '> 
-              <a href={project.github} target="_blank" className="flex gap-1 items-center justify-center">
-                <span className=""> <FaGithub /> </span> GitHub 
-              </a>
-            </Button>
-            <Button className='bg-[#0B093A] text-base-content text-sm px-10 py-2 '>
-              <a href={project.liveLink} target="_blank" className="flex gap-1 items-center justify-center">
-                <span className=""> <LuCircleArrowOutUpRight /> </span> Live Site
-              </a>
-            </Button>
+            <Link to={project.github} target="_blank" className="">
+              <Button className='bg-[#0B093A] text-white text-sm px-10 py-2 flex gap-1 items-center justify-center'> 
+                <span className=""> <FaGithub /> </span>
+                <p className=""> GitHub </p>
+              </Button>
+            </Link>
+            <Link to={project.liveLink} target="_blank" className="">
+              <Button className='bg-[#0B093A] text-white text-sm px-10 py-2 flex gap-1 items-center justify-center'>
+                <span className=""> <LuCircleArrowOutUpRight /> </span>
+                <p className=""> Live Site </p>
+              </Button>
+            </Link>
           </div>
         </div>
       </Card>

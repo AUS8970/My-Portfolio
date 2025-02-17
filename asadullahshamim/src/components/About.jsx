@@ -6,7 +6,7 @@ import aboutJsonData from "../assets/Animation - 1738939887045.json";
 const About = () => {
   return (
     <div className='pb-20 px-5 bg-gray-100 text-center'>
-      <section id="about" className="flex flex-col items-center">
+      <section id="about" className="flex flex-col min-h-screen justify-center items-center">
         <div className="w-[300px]">
           <Lottie className='w-full' animationData={aboutJsonData} loop={true} />
         </div>
