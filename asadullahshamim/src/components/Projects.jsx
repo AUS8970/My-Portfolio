@@ -56,7 +56,7 @@ const Projects = () => {
               </Card>
             ))}
           </div>
-          <Button className='m-5 flex mx-auto bg-gray-400 text-black text-sm p-2'> 
+          <Button className='m-5 flex mx-auto bg-none border-2 hover:bg-[#0B093A] border-[#0B093A] text-[#0B093A] hover:text-white text-sm p-2'> 
             <a href={"https://www.github.com/AUS8970"} target="_blank" className="flex gap-1 items-center justify-center">
               <span className=""> <FaGithub /> </span>
                My All Project

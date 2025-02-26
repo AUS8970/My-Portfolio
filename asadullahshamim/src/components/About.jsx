@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="w-full text-center col-span-2">
           <h2 className="text-4xl font-bold text-gray-800"> About Me </h2>
-          <p className="mt-4 text-gray-600 text-lg"> I am <b>Asad Ullah Shamim</b>. I am currently pursuing my Intermediate studies along with a Diploma in Homeopathy 2nd year under the Bangladesh Homeopathy Board. My journey into programming began in 2024. While scrolling through YouTube, I came across various programming-related content, which sparked my curiosity and interest. Eventually, I enrolled in Programming Hero’s Web Development course, and now I am a <b>Front-End Developer</b>. In the future, I aspire to <b>become a Software Engineer</b>. </p>
+          <p className="mt-4 text-gray-600 text-lg max-w-4xl mx-auto"> I am a passionate <b> frontend web developer</b>, currently learning web development using Next.js and MaterialUI and want to become a software engineer in the future. I started learning programming in 2024 and am improving my skills by learning from YouTube and Programming Hero platforms. I am a homeopathy student, pursuing a diploma under Bangladesh Homeopathy Board and want to innovate something new using AI and technology in the future. I have a great interest in science and technology, although my main academic background is not in science, but I have a strong desire to learn new technologies self-taught. I am an innovative thinker, always wanting to create something new that no one has done before, especially I dream of working in AI, automation and medical technology. </p>
         </div>
       </section>
     </div>

@@ -56,13 +56,15 @@ const ProjectDetails = () => {
       </Typography>
       <Card className="grid md:grid-cols-2">
         <div className="">
-          <CardHeader>
-            <img src={project.image} alt={project.title} className="w-full object-cover" />
-          </CardHeader>
+          <Link to={project.liveLink} target="_blank" className="">
+            <CardHeader>
+              <img src={project.image} alt={project.title} className="w-full object-cover" />
+            </CardHeader>
+          </Link>
         </div>
         <div className="text-center md:text-start">
-          <CardBody>
-            <Typography className="mt-2 text-gray-600">
+          <CardBody className='pt-0'>
+            <Typography className="text-gray-600">
               <b> Description: </b> {project.description}
             </Typography>
             <Typography className="mt-2 text-gray-600">
@@ -81,7 +83,7 @@ const ProjectDetails = () => {
           </CardBody>
           <div className="flex justify-center md:justify-start gap-4 mx-5">
             <Link to={project.github} target="_blank" className="">
-              <Button className='bg-[#0B093A] text-white text-sm px-10 py-2 flex gap-1 items-center justify-center'> 
+              <Button className='bg-none hover:bg-[#0B093A] border border-[#0B093A] text-[#0B093A] hover:text-white text-sm px-10 py-2 flex gap-1 items-center justify-center'> 
                 <span className=""> <FaGithub /> </span>
                 <p className=""> GitHub </p>
               </Button>

@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const Banner = () => {
   return (
-    <div>
+    <div className='py-10'>
       <section className="max-h-screen flex flex-col-reverse sm:flex-col-reverse md:flex-row items-center justify-center mb-20 sm:mb-20 md:mb-0">
         <div className="container mx-auto px-10 md:w-1/2 w-full text-center md:text-start space-y-3 text-[#0B093A]">
           <h1 className="font-bold text-4xl"> <span className=""> Asad Ullah Shamim </span> </h1>
