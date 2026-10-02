@@ -1,0 +1,13 @@
+{
+  "projects": {},
+  "targets": {
+    "asadullahshamim-6684f": {
+      "hosting": {
+        "new-site": [
+          "asadullahshamim"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
